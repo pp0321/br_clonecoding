@@ -1,0 +1,60 @@
+
+7월 26, 2022 16:26:07.303 NEW SESSION
+7월 26, 2022 16:26:07.305 [31068:30208:0726/162607.276:ERROR:device_event_log_impl.cc(214)] [16:26:07.276] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+7월 26, 2022 16:27:04.414 [31068:27296:0726/162704.414:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+7월 26, 2022 16:30:32.899 [26688:2524:0726/163032.897:ERROR:device_event_log_impl.cc(214)] [16:30:32.897] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+7월 26, 2022 16:31:30.03 [26688:13732:0726/163130.003:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+7월 26, 2022 16:45:43.569 [26688:2524:0726/164543.567:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 16:47:14.998 [26688:2524:0726/164714.997:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 16:47:27.374 [26688:2524:0726/164727.373:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:09:47.143 [26688:2524:0726/170947.140:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:10:53.352 [26688:2524:0726/171053.349:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:25:03.427 [26688:2524:0726/172503.424:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:35:59.363 [26688:2524:0726/173559.357:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:36:49.104 [26688:2524:0726/173649.101:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:37:43.12 [26688:2524:0726/173743.011:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:40:23.241 [26688:2524:0726/174023.240:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:44:06.491 [26688:2524:0726/174406.489:ERROR:device_event_log_impl.cc(214)] [17:44:06.488] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+7월 26, 2022 17:44:06.528 [26688:2524:0726/174406.527:ERROR:device_event_log_impl.cc(214)] [17:44:06.527] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+7월 26, 2022 17:44:16.803 [26688:2524:0726/174416.801:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:48:58.08 [26688:2524:0726/174858.007:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:50:41.478 [26688:2524:0726/175041.476:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:50:55.604 [26688:2524:0726/175055.602:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:57:02.571 [26688:2524:0726/175702.569:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:57:33.390 [26688:2524:0726/175733.389:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 17:58:00.328 [26688:2524:0726/175800.327:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 26, 2022 18:37:56.202 [26688:2524:0726/183756.202:ERROR:device_event_log_impl.cc(214)] [18:37:56.196] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+7월 26, 2022 18:37:56.225 [26688:2524:0726/183756.225:ERROR:device_event_log_impl.cc(214)] [18:37:56.221] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+7월 26, 2022 18:59:36.25 [26688:23820:0726/185936.010:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+7월 26, 2022 18:59:47.924 [26688:2524:0726/185947.918:ERROR:device_event_log_impl.cc(214)] [18:59:47.903] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+7월 26, 2022 18:59:47.945 [26688:2524:0726/185947.945:ERROR:device_event_log_impl.cc(214)] [18:59:47.932] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+7월 26, 2022 18:59:57.34 [26688:23820:0726/185957.034:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+7월 26, 2022 19:03:09.887 [26688:2524:0726/190309.883:ERROR:device_event_log_impl.cc(214)] [19:03:09.878] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+7월 26, 2022 19:03:09.909 [26688:2524:0726/190309.902:ERROR:device_event_log_impl.cc(214)] [19:03:09.903] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+
+8월 03, 2022 16:39:11.887 NEW SESSION
+8월 03, 2022 16:39:11.888 [4764:3176:0803/163911.878:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 03, 2022 16:44:43.409 [4764:17328:0803/164443.407:ERROR:device_event_log_impl.cc(214)] [16:44:43.395] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+8월 03, 2022 16:44:43.434 [4764:17328:0803/164443.425:ERROR:device_event_log_impl.cc(214)] [16:44:43.420] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+8월 03, 2022 16:48:05.647 [18248:13584:0803/164805.647:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 03, 2022 16:51:54.933 [8488:6888:0803/165154.932:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+
+8월 05, 2022 14:33:06.732 NEW SESSION
+8월 05, 2022 14:33:06.736 [17292:1700:0805/143306.693:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 05, 2022 14:34:46.529 [6456:13696:0805/143446.518:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+
+8월 05, 2022 15:10:00.08 NEW SESSION
+8월 05, 2022 15:10:00.09 [1304:6552:0805/150959.949:ERROR:device_event_log_impl.cc(214)] [15:09:59.948] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+8월 05, 2022 15:10:55.856 [1304:3160:0805/151055.849:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 05, 2022 15:11:59.733 [15456:14088:0805/151159.731:ERROR:device_event_log_impl.cc(214)] [15:11:59.730] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+8월 05, 2022 15:12:55.689 [15456:1468:0805/151255.687:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 05, 2022 15:28:09.228 [10580:9236:0805/152809.210:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 05, 2022 15:49:27.921 [14392:10984:0805/154927.918:ERROR:device_event_log_impl.cc(214)] [15:49:27.918] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+8월 05, 2022 15:50:23.968 [14392:10916:0805/155023.964:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 05, 2022 15:50:48.613 [14392:10984:0805/155048.612:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+8월 06, 2022 17:03:00.304 [14392:12220:0806/170300.304:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 06, 2022 17:03:00.973 [14392:14640:0806/170300.958:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+8월 06, 2022 17:03:00.973 [14392:13020:0806/170300.973:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
+8월 06, 2022 21:37:48.668 [14392:14640:0806/213748.668:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+8월 06, 2022 21:37:48.668 [14392:9176:0806/213748.668:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
+8월 06, 2022 21:38:18.671 [14392:14640:0806/213818.668:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;WebProject3&apos;&#x0D;&#x0A;- Original project: &apos;WebProject3&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.cy.dto.Netflix01_005fjoin_jsp.java&#x0D;&#x0A;     com.cy.dto.Netflix02_005flogin_005faction_jsp.java" description="Delete elements" element1="/src&lt;com.cy.dto{Netflix02_005flogin_005faction_jsp.java" element2="/src&lt;com.cy.dto{Netflix01_005fjoin_jsp.java" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1659671316027" subPackages="false" version="1.0"/>
+</session>
