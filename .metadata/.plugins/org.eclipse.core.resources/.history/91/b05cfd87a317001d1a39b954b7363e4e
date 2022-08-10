@@ -12,9 +12,12 @@ public class DBConnection {
 			return conn;
 		}else {		//새롭게 접속을 해야하는 경우
 			String driver = "oracle.jdbc.driver.OracleDriver";
-			String url = "jdbc:oracle:thin:@192.168.1.12:1521:xe";
-			String dbID = "oraclePort";
-			String dbPW = "1234";
+//			String url = "jdbc:oracle:thin:@192.168.1.12:1521:xe";
+//			String dbID = "oraclePort";
+//			String dbPW = "1234";
+			String url = "jdbc:oracle:thin:@localhost:1521:xe";
+			String dbID = "oracle1212";
+			String dbPW = "1212";
 			
 			try {
 				Class.forName(driver);

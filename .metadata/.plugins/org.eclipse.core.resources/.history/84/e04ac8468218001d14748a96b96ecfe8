@@ -12,8 +12,6 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css/p05.account.css">
 <title>넷플릭스 계정 메인</title>
-<script src="../js/jquery-3.6.0.min.js"></script>
-<script src="../js/common_headerBR.js"></script>
 <script>
 
 $(function(){
@@ -65,7 +63,8 @@ $(function(){
 		emailAddress = rs.getString("email_address");
 	} */
 %>
-
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/common_headerBR.js"></script>
 
 <script>
 		$(function(){

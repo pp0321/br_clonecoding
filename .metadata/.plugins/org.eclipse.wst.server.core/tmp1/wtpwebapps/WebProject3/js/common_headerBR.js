@@ -19,10 +19,10 @@ $(function () {
     });
 
 	//드롭다운
-//	$(".current-profile").mouseenter(function() {
+	$(".current-profile").mouseenter(function() {
 //		//$(".profiles-container").css("display", "block");
-//		$(".profiles-container").slideDown(400);
-//		$(".current-profile .trigger").show();
+		$(".profiles-container").slideDown(400);
+		$(".current-profile .trigger").show();
 //		//var idx = $(this).index();
 //		//if ($(".profiles-container").is(":visible")) {
 //		//if ($(".profiles-container").css("display")!="none") {
@@ -30,11 +30,11 @@ $(function () {
 //		//} else {
 //		//	$(".profiles-container").css("display", "block");
 //		//}
-//	});
-//	$(".profiles-container").mouseleave(function() {
-//		$(".profiles-container").slideUp(200);
-//		$(".current-profile .trigger").hide();
-//	});
+	});
+	$(".profiles-container").mouseleave(function() {
+		$(".profiles-container").slideUp(200);
+		$(".current-profile .trigger").hide();
+	});
 	
 	
 });
