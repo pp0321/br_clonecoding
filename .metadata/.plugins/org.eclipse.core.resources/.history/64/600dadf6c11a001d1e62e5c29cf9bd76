@@ -1,4 +1,4 @@
-package com.sns.dao;
+package com.uj.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,10 +12,10 @@ public class DBConnection {
 			return conn;
 		}else {		//새롭게 접속을 해야하는 경우
 			String driver = "oracle.jdbc.driver.OracleDriver";
-//			String url = "jdbc:oracle:thin:@192.168.1.12:1521:xe";
-			String url = "jdbc:oracle:thin:@192.168.219.1:1521:xe";
+			String url = "jdbc:oracle:thin:@192.168.1.12:1521:xe";
 			String dbID = "oraclePort";
 			String dbPW = "1234";
+			
 			try {
 				Class.forName(driver);
 				conn = DriverManager.getConnection(url, dbID, dbPW);

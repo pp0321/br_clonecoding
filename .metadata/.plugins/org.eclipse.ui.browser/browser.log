@@ -58,3 +58,7 @@
 8월 06, 2022 21:37:48.668 [14392:14640:0806/213748.668:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
 8월 06, 2022 21:37:48.668 [14392:9176:0806/213748.668:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
 8월 06, 2022 21:38:18.671 [14392:14640:0806/213818.668:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+
+8월 13, 2022 13:35:00.115 NEW SESSION
+8월 13, 2022 13:35:00.115 [23700:18056:0813/133500.094:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 13, 2022 13:41:07.475 [20376:23060:0813/134107.471:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
