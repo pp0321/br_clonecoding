@@ -58,7 +58,7 @@
 	<div id="page2-login-blackbox">
 		<div class="login-blackbox-container">
 			<div class="login-blackbox-signup">
-				<div class=login-form-main-textbox">
+				<div class="login-form-main-textbox">
 					<h1 data-uia="login-page-title">로그인</h1>
 					<form class="login-page-input-allbox" action ="Netflix02_login_action.jsp" method="post">
 					<!-- 이메일박스 -->

@@ -664,8 +664,8 @@ PostViewDAO pDao = new PostViewDAO();
             for(MainRandomDto mRDto : mRList) {
 			%>
             <img class="main-img"
-                src="<%=mRDto.getPriviewImage() %>"
-                width="100%" height="100%">
+                src="<%=mRDto.getPriviewImage() %>">
+               <!--  width="100%" height="100%" -->
             <div class="overlay">
                 <div class="banner">
                     <img class="titleImage"
@@ -702,7 +702,7 @@ PostViewDAO pDao = new PostViewDAO();
                 <div class="contents">
                     <div class="contents-list">
                         <h2 class="top-movie">TOP 10 영화</h2>
-                        <div class="swiper mySwiper" style="overflow:initial;">
+                        <div class="swiper mySwiper" style="overflow: hidden;">
 	                        <div class="swiper-wrapper">
 		                        <div style="display:flex" class="swiper-slide">
 		                        	<div gubun="movie" class="movie-rank" style="display: flex;" >
@@ -947,14 +947,12 @@ PostViewDAO pDao = new PostViewDAO();
             </div>
 		  </div>
         </div>
-        <div class="background-fill" style="background: #141414; height: 101px; width: 1777px;position: absolute;">
-        	
-        </div>
+<!--         <div class="background-fill" style="background: #141414; height: 100%; width: 100%;position: absolute;"></div> -->
         <div class="main">
             <div class="main-contents">
                 <h2 class="top-drama">TOP 10 시리즈</h2>
                 <div class="top-drama-list">
-	                <div class="swiper mySwiper1" style="overflow:initial;">
+	                <div class="swiper mySwiper1" style="overflow:hidden;">
 		                <div class="swiper-wrapper" style="width:1680px;">
 			                <div class="swiper-slide" style="display:flex;">
 			                    <div gubun="drama" class="drama-rank" style="display: flex;">
@@ -1201,7 +1199,7 @@ PostViewDAO pDao = new PostViewDAO();
             <div class="main-viewing-contents">
                 <h2 class="viewing-contends">시청 중인 콘텐츠</h2>
                 <div class="viewing-list">
-	                <div class="swiper mySwiper2" style="overflow:initial;">
+	                <div class="swiper mySwiper2" style="overflow:hidden;">
 	                	<div class="swiper-button-all-box">
 		                	<div class="swiper-button-next-box">
 		                  		<div class="swiper-button-next"></div>
@@ -1233,7 +1231,7 @@ PostViewDAO pDao = new PostViewDAO();
             <div class="main-dib-contents">
                 <h2 class="dib-contents">내가 찜한 콘텐츠</h2>
                 <div class="dib-list">
-	                <div class="swiper mySwiper3" style="overflow:initial;">
+	                <div class="swiper mySwiper3" style="overflow:hidden;">
 	                	<div class="swiper-button-all-box">
 		                	<div class="swiper-button-next-box">
 		                  		<div class="swiper-button-next"></div>

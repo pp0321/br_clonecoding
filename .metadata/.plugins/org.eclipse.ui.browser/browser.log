@@ -62,3 +62,14 @@
 8월 13, 2022 13:35:00.115 NEW SESSION
 8월 13, 2022 13:35:00.115 [23700:18056:0813/133500.094:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
 8월 13, 2022 13:41:07.475 [20376:23060:0813/134107.471:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+
+8월 16, 2022 12:09:49.962 NEW SESSION
+8월 16, 2022 12:09:49.978 [10356:4224:0816/120949.961:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 16, 2022 12:10:45.706 [2508:6640:0816/121045.704:ERROR:device_event_log_impl.cc(214)] [12:10:45.704] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+8월 16, 2022 12:11:42.726 [2508:7700:0816/121142.725:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 16, 2022 12:13:30.558 [9772:12728:0816/121330.553:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 16, 2022 12:16:03.847 [2596:9280:0816/121603.847:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 16, 2022 12:19:42.372 [2596:5496:0816/121942.370:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+8월 16, 2022 13:54:56.841 [2596:5496:0816/135456.841:ERROR:device_event_log_impl.cc(214)] [13:54:56.837] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+8월 16, 2022 13:57:47.04 [2596:5496:0816/135747.002:ERROR:device_event_log_impl.cc(214)] [13:57:47.002] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+8월 16, 2022 13:57:47.19 [2596:5496:0816/135747.018:ERROR:device_event_log_impl.cc(214)] [13:57:47.013] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)

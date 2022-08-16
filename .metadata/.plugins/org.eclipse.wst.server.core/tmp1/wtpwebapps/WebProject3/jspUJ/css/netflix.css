@@ -1,3 +1,8 @@
+body{
+	background:#141414;
+	
+}
+
 body,
 html {
  width: 100vw;
@@ -30,7 +35,7 @@ img {
 }
 
 .main-img {
- width: 1777px;
+ width: 100%;
  height: 880px;
 }
 
@@ -44,14 +49,14 @@ img {
  /* position:absolute는 overlay가 video 위에 있을 수 있게 해줌 */
  top: 0;
  left: 0;
- width: 1777px;
+ width: 100%;
  background-image: linear-gradient(to bottom,rgba(20,20,20,0) 0,rgba(20,20,20,.15) 60%,rgba(20,20,20,.35) 67%,rgba(20,20,20,.58) 80%,#141414 87%,#141414 100%),linear-gradient(77deg,rgba(0,0,0,.6) 0,rgba(0,0,0,0) 38%);
 }
 
 #header {
  /* display: flex; */
  background-color: transparent;
- width: 1777px;
+ width: 100%;
  /* padding: 20px 50px; */
  height: 68px;
 }
@@ -62,8 +67,8 @@ img {
 
 .header-list {
  display: flex;
- padding-top: 16px;
- padding-left: 50px;
+ padding-top: 1%;
+ padding-left: 2%;
 }
 
 .logo {
@@ -274,7 +279,7 @@ span.profile-name:hover {
 }
 
 .titleImage {
- padding-top: 210px;
+ padding-top: 20%;
  padding-botton: 25px;
  width: 80%;
  /* height: auto; */
@@ -598,8 +603,8 @@ a.current-active:hover {
 }
 
 .main {
- width: 1780px;
- height: 275px;
+ width: 100%;
+/*  height: 275px; */
  background: #141414;
 }
 
@@ -608,7 +613,7 @@ a.current-active:hover {
 }
 
 .top-drama {
- margin-top: 101px;
+ margin-top: 6.5%;
  color: white;
  margin-left: 50px;
 }
@@ -618,7 +623,7 @@ a.current-active:hover {
 }
 
 .main-s {
- width: 1777px;
+ width: 100%;
  height: 265px;
  position: relative;
  background: #141414;
@@ -663,7 +668,7 @@ height: 155px;
 }
 
 .main-th {
- width: 1777px;
+ width: 100%;
  height: 265px;
  position: relative;
  background: #141414;
@@ -702,13 +707,13 @@ height: 155px;
  background: #141414;
 }
 .main-sixth {
- width: 1777px;
+ width: 100%;
     height: auto;
     position: relative;
-    float: left;
+/*     float: left; */
     padding: 0 0 40px 0;
     margin-left: 910px;
-    background: #141414;
+/*     background: #141414; */
 }
 
 .main-all-contents {
@@ -748,7 +753,7 @@ height: 155px;
 }
 
 .lower {
- width: 1777px;
+ width: 100%;
  height: auto;
  background: #141414;
 }
