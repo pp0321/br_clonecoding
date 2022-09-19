@@ -39,7 +39,8 @@
 	<div class="page2-login-background">
 		<div class="page2-login-wrapper">
 			<div class="page2-login-image-box">
-				<img class="img-creative" src="https://assets.nflxext.com/ffe/siteui/vlv3/25badb14-858b-4b1c-8b7d-2244098454d9/5c529c55-27bb-4e63-86eb-28734c60d7a6/KR-ko-20220606-popsignuptwoweeks-perspective_alpha_website_small.jpg"/>
+				<img class="img-creative" src="https://assets.nflxext.com/ffe/siteui/vlv3/25badb14-858b-4b1c-8b7d-2244098454d9/5c529c55-27bb-4e63-86eb-28734c60d7a6/KR-ko-20220606-popsignuptwoweeks-perspective_alpha_website_small.jpg"/
+				style="height: 78em;  filter: brightness(0.5); ">
 			</div>
 	</div>
 	<!-- 배경그라데이션 + 화면 상단 넷플릭스 로고  -->
@@ -55,6 +56,7 @@
 		</a>
 	</div>
 	<!-- 로그인 아이디 + 비밀번호 박스  -->
+	<div class="login-body"> 
 	<div id="page2-login-blackbox">
 		<div class="login-blackbox-container">
 			<div class="login-blackbox-signup">
@@ -64,7 +66,7 @@
 					<!-- 이메일박스 -->
 						<div class="login-send-email-container">
 							<label class="input-id" placeholder="">
-								<input type="text" class="nfTextfield-error" name="email" placeholder="이메일">
+								<input type="text" class="nfTextfield-error" name="email" placeholder="이메일 주소 또는 전화번호">
 							</label>
 						</div>
 					<!-- 비밀번호박스 -->			
@@ -75,7 +77,11 @@
 						</div>
 						<!-- 로그인버튼 -->
 						<button class="login-nfbtn">로그인</button>
-						<a href="#" id="kakao-login-btn"><img src="./img/kakao_login_medium_wide.png" style="width:162px;height:40px; display:inline-block;"/></a>
+						<div><!-- 네이버 카카오api -->
+						<a href="#" id="kakao-login-btn">
+						<img src="./img/kakao_login_medium_wide.png">
+<!-- 							style="float: left; margin-right: 3px; width: 49%; height: 32px; border-radius: 10px;"> -->
+						</a>
 						<script>
 							Kakao.init('d7d9e8097f1533227afa37965a4f880b');
 							$("#kakao-login-btn").on("click", function(){
@@ -98,7 +104,7 @@
 								});      
 							})
 						</script>
-						<div id="naver_id_login" style="display:inline-block;"></div>
+						<div id="naver_id_login"></div>
 						<script>
 							var naver_id_login = new naver_id_login("qb4MOy_QZ25jKIGEN0J0", "http://localhost:9090/Web1/callback.jsp"); //프로젝트 폴더 바뀌면 폴더명 바꿔주기!!
 						  	var state = naver_id_login.getUniqState();
@@ -106,7 +112,20 @@
 						  	naver_id_login.setState(state);
 						  	naver_id_login.init_naver_id_login();
 						</script>
-						
+						</div><!-- 네이버 카카오api -->
+						<script>
+						$(function(){
+						    $(".recaptcha-link-button").click(function () {
+						        var idx = $(this).index(); 
+						    if ($(".recaptcha-terms-use-disclosure").is(":visible")) {
+						        $(".recaptcha-terms-use-disclosure").css("display", "none");
+						    }
+						    else {
+						        $(".recaptcha-terms-use-disclosure").css("display", "block");
+						    }
+						});
+						}); 
+						</script>
 					</form>
 					<!-- 체크박스&도움말 -->
 					<div style="display: flex;">
@@ -122,7 +141,7 @@
 					</div>
 					<!-- 넷플릭스 회원 여부 도움말 -->
 					<div class="login-signup-now">Netflix 회원이 아닌가요? 
-						<a class=" " href=" ">지금 가입하세요</a>.
+						<a style="color: #fff;" href=" ">지금 가입하세요</a>.
 					</div>
 					<!-- 보안 도움말 -->
 					<div class="recaptcha-terms-use">
@@ -138,43 +157,44 @@
 							</span>
 						</div>
 					</div>
-				</div>
+				</div><!-- 로그인 박스 -->
 			</div>
 		</div>	
-	</div>
+		</div>
+	</div> <!--로그인바디 -->
 	<!-- 밑에 하단 고객센터 -->
-		<div class="site-footer-centered" style="margin-top: 600px; text-align: center;">
+		<div class="site-footer-centered" style="margin-top: 1%;">
 			<div class="site-footer-centered-content" style="position: static;">
 				<p class="footer-top-question">질문이 있으신가요? 문의 전화: &nbsp;
 					<a class="footer-top-telephone" href="tel:080-001-9587">080-001-9587</a>
 				</p>
 				<ul class="footer-links-askquestion">
-					<li class="footer-link-askquestion-item" placeholder="footer_responsive_link_faq_item">
-						<a class="footer-link" href="" placeholder="footer_responsive_link_faq">
+					<li class="footer-link" placeholder="footer_responsive_link_faq_item">
+						<a href="" placeholder="footer_responsive_link_faq">
 							<span id="" >자주 묻는 질문</span>
 						</a>
 					</li>
-					<li class="footer-link-customer-center" placeholder="footer_responsive_link_help_item">
+					<li class="footer-link" placeholder="footer_responsive_link_help_item">
 						<a class="footer-link-customercenter-item" href="" placeholder="footer_responsive_link_help">
 							<span id="" data-uia="data-uia-footer-label">고객 센터</span>
 						</a>
 					</li>
-					<li class="footer-link-use-terms" placeholder="footer_responsive_link_terms_item">
+					<li class="footer-link" placeholder="footer_responsive_link_terms_item">
 						<a class="footer-link-useterms-item" href="https://help.netflix.com/legal/termsofuse" placeholder="footer_responsive_link_terms">
 							<span id="" data-uia="data-uia-footer-label">이용 약관</span>
 						</a>
 					</li>
-					<li class="footer-link-personal-information" placeholder="footer_responsive_link_privacy_separate_link_item">
+					<li class="footer-link" placeholder="footer_responsive_link_privacy_separate_link_item">
 						<a class="footer-link-pInformation-item" href="https://help.netflix.com/legal/privacy" placeholder="footer_responsive_link_privacy_separate_link">
 							<span id="" data-uia="data-uia-footer-label">개인정보</span>
 						</a>
 					</li>
-					<li class="footer-link-cookie-setting" placeholder="footer_responsive_link_cookies_separate_link_item">
+					<li class="footer-link" placeholder="footer_responsive_link_cookies_separate_link_item">
 						<a class="footer-link-cSetting-item" href="#" placeholder="footer_responsive_link_cookies_separate_link">
 							<span id="" data-uia="data-uia-footer-label">쿠키 설정</span>
 						</a>
 					</li>
-					<li class="footer-link-company-information" placeholder="footer_responsive_link_corporate_information_item">
+					<li class="footer-link" placeholder="footer_responsive_link_corporate_information_item">
 						<a class="footer-link-cInformation-item" href="https://help.netflix.com/legal/corpinfo" placeholder="footer_responsive_link_corporate_information">
 							<span id="" data-uia="data-uia-footer-label">회사 정보</span>
 						</a>
@@ -183,7 +203,7 @@
 				<div class="lang-selection-container" id="lang-switcher">
 					<div data-uia="language-picker+container" class="ui-select-wrapper">
 						<label for="lang-switcher-select" class="ui-label">
-							<span class="ui-label-text">언어 선택</span>
+							<span class="ui-label-text"><!-- 언어 선택 --></span>
 						</label>
 						<div class="select-arrow medium prefix globe">
 							<select data-uia="language-picker" class="ui-select medium" id="lang-switcher-select" tabindex="0" placeholder="lang-switcher">

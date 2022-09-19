@@ -73,3 +73,37 @@
 8월 16, 2022 13:54:56.841 [2596:5496:0816/135456.841:ERROR:device_event_log_impl.cc(214)] [13:54:56.837] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
 8월 16, 2022 13:57:47.04 [2596:5496:0816/135747.002:ERROR:device_event_log_impl.cc(214)] [13:57:47.002] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
 8월 16, 2022 13:57:47.19 [2596:5496:0816/135747.018:ERROR:device_event_log_impl.cc(214)] [13:57:47.013] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+8월 16, 2022 16:46:54.149 [2596:5496:0816/164654.138:ERROR:interface_endpoint_client.cc(665)] Message 1 rejected by interface blink.mojom.WidgetHost
+8월 18, 2022 09:08:13.754 [2596:9808:0818/090813.754:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 18, 2022 09:08:15.102 [2596:6648:0818/090815.097:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+8월 18, 2022 09:08:15.107 [2596:6648:0818/090815.097:ERROR:registration_request.cc(247)] Registration URL fetching failed.
+8월 18, 2022 09:08:15.109 [2596:6648:0818/090815.102:ERROR:registration_request.cc(247)] Registration URL fetching failed.
+8월 18, 2022 09:08:15.109 [2596:3552:0818/090815.109:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
+8월 18, 2022 09:08:22.232 [2596:5496:0818/090822.230:ERROR:device_event_log_impl.cc(214)] [09:08:22.222] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+8월 18, 2022 09:08:22.244 [2596:5496:0818/090822.242:ERROR:device_event_log_impl.cc(214)] [09:08:22.235] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+8월 18, 2022 09:08:39.742 [2596:6648:0818/090839.735:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+8월 18, 2022 09:09:36.705 [2596:5496:0818/090936.703:ERROR:device_event_log_impl.cc(214)] [09:09:36.701] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+8월 18, 2022 09:09:36.719 [2596:5496:0818/090936.719:ERROR:device_event_log_impl.cc(214)] [09:09:36.713] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+8월 18, 2022 09:42:14.273 [2596:6648:0818/094214.257:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+8월 18, 2022 10:33:25.261 [2596:5496:0818/103325.257:ERROR:device_event_log_impl.cc(214)] [10:33:25.249] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+8월 18, 2022 10:33:25.299 [2596:5496:0818/103325.274:ERROR:device_event_log_impl.cc(214)] [10:33:25.264] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+8월 18, 2022 11:32:08.512 [2596:6648:0818/113208.511:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+8월 18, 2022 12:29:58.25 [2596:5496:0818/122958.022:ERROR:device_event_log_impl.cc(214)] [12:29:58.022] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+8월 18, 2022 12:29:58.40 [2596:5496:0818/122958.040:ERROR:device_event_log_impl.cc(214)] [12:29:58.043] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+8월 21, 2022 13:59:29.374 [2596:6648:0821/135929.372:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+8월 21, 2022 13:59:29.379 [2596:6644:0821/135929.379:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
+8월 21, 2022 13:59:30.501 [2596:5496:0821/135930.501:ERROR:device_event_log_impl.cc(214)] [13:59:30.494] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+8월 21, 2022 13:59:30.525 [2596:5496:0821/135930.525:ERROR:device_event_log_impl.cc(214)] [13:59:30.514] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+8월 21, 2022 13:59:31.376 [2596:6648:0821/135931.372:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+8월 21, 2022 13:59:40.549 [2596:18172:0821/135940.549:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+8월 21, 2022 14:00:09.606 [2596:6648:0821/140009.605:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+8월 21, 2022 14:00:14.779 [2596:17872:0821/140014.776:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
+8월 21, 2022 14:00:14.781 [2596:17872:0821/140014.777:ERROR:get_updates_processor.cc(260)] PostClientToServerMessage() failed during GetUpdates with error 2
+
+9월 14, 2022 22:20:49.200 NEW SESSION
+9월 14, 2022 22:20:49.202 [12140:11584:0914/222048.997:ERROR:device_event_log_impl.cc(214)] [22:20:48.997] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+9월 14, 2022 22:20:49.206 [12140:11584:0914/222049.001:ERROR:device_event_log_impl.cc(214)] [22:20:49.000] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+9월 14, 2022 22:21:42.300 [12140:4784:0914/222142.299:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
+9월 14, 2022 22:24:58.475 [4032:4176:0914/222458.474:ERROR:device_event_log_impl.cc(214)] [22:24:58.473] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+9월 14, 2022 22:24:58.491 [4032:4176:0914/222458.490:ERROR:device_event_log_impl.cc(214)] [22:24:58.486] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: 사용 가능한 데이터가 없습니다. (0x103)
+9월 14, 2022 22:25:35.836 [4032:5204:0914/222535.835:ERROR:util.cc(127)] Can't create base directory: C:\Program Files (x86)\Google\GoogleUpdater
